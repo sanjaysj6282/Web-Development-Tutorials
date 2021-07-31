@@ -89,3 +89,12 @@ var myCar2= new Car(40, "Shyam");
 myCar.drive(30, 5);
 myCar2.logDriver();
 
+var myDate= new Date();
+console.log(myDate);
+
+//(String, number, no., no(0to23)) --> year, month, day
+// HH, MM, SS
+var myPastDate=new Date(1545, 11, 2, 30, 10, 15);
+console.log(myPastDate);
+console.log(myPastDate.getMonth(), myPastDate.getFullYear());
+
