@@ -1,0 +1,30 @@
+* {
+  background-image: url("cemist.png");
+  background-repeat: no-repeat;
+  background-size: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  height: 1000px;
+  width: 1000px;
+}
+p {
+  color: rgba(19, 170, 64, 0.671);
+  line-height: 4;
+  font-weight: 800;
+  text-indent: 100px;
+  word-spacing: 4;
+}
+p{
+  padding: 18px;
+  border: 10px solid #061599;
+  margin: 20px;
+}
+h1 {
+  /* background-color: coral; */
+  font-size: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-transform: uppercase;
+  text-decoration: overline;
+  text-shadow: 1px 5px 2px pink, 2px 2px 1px black;
+  text-align: center;
+}
