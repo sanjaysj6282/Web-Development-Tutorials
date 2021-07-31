@@ -1,0 +1,62 @@
+/* Refer notes for each function */
+/* Everything selector */
+*{
+    box-sizing: border-box;
+}
+
+p{
+    color: rgba(0, 128, 0, 0.753);
+}
+a{
+    color: blueviolet;
+}
+
+/*
+Or if u need same color 
+    p,a{...}
+*/
+
+li{
+    list-style: square;
+}
+/*  .Classname  */
+.special{
+    color: rgb(255, 0, 64);
+    font-weight: bold;
+}
+
+span.special{
+    color:rgba(0, 0, 255, 0.301);
+}
+
+li em{
+    color: aqua;
+}
+
+/*To select paragraph tag just after the h1 tag*/
+h1+p{
+    font-size: 200%;
+}
+
+/*Psuedo Class selector*/
+a:hover{
+    color: brown;
+    text-decoration: none;
+}
+
+/*Only special class in the p tag just after h1 tag is selected*/ 
+body h1+p .special{
+    color: yellow;
+    background-color: black;
+    padding: 5px;
+}
+
+/* For heading #heading name*/
+/* To select id "One" int "p" tag use "p#One"  */
+
+
+/*For attribute selector */
+/* li[class] to select all classes in the ul */
+/* To select a particular class 
+li[class = "Classname"] */
+
