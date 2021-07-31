@@ -1,0 +1,218 @@
+<!--Basic html code containing all-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <titlle>Sanjay</titlle>
+    
+    <!--Internal CSS-->
+    <style>
+      h2{
+        color: rgb(12, 209, 54);
+      }
+    </style>
+  </head>
+  
+
+  <body>
+    <!--External CSS-->
+    <h1 style="color: blueviolet;">Welcome to Sanjay's world &lt;h1 &gt;&Backslash;</h1>
+    <h2>Welcome to(y) Sanjay's world</h2>
+    <h3>Welcome to Sanjay's world</h3>
+    <hr />
+    <p>Welcome to Sanjay's amusement park where you will find your lost soul</p>
+    <hr />
+    <p>
+      <b> Lorem ipsum dolor sit amet consectetur</b>,
+      <i> adipisicing elit.Incidunt recusandae </i>blanditiis vitae
+      <small> repellendus</small>2<sup> 2 </sup>adipisci iure sit earum
+      inventore log <sub>2</sub>  10 mollitia harum exercitationem sequi
+      accusamus delectus accusantium, fuga velit?
+    </p>
+    <hr />
+    <h2>Grocery</h2>
+    <ul>
+      <li>Cuckoo</li>
+      <li>Milk</li>
+      <li>Cucumber</li>
+    </ul>
+    <h2>Magieee</h2>
+    <ol type="i">
+      <li>stepfdv 1</li>
+      <li>step 2</li>
+      <li>step 3</li>
+      <li>
+        Add some veggies like:-
+        <ul>
+          <li>Chakka</li>
+          <li>Potato</li>
+        </ul>
+      </li>
+    </ol>
+    <hr />
+
+    <a href="P1_Intro.html">P1_Intro</a>
+    <a href="https://www.google.com">google</a>
+    <!--Target blank for opening in new tab-->
+    <a href="https://www.google.com" target="_blank">google</a>
+
+    <a
+      href="https://drive.google.com/drive/u/0/my-drive"
+      target="_blank"
+      rel="noopener noreferrer"
+      ><h2>Notes</h2>
+    </a>
+
+    <a href="C:\Users\sanja\Downloads\Time Table.pdf">S</a>
+    <!--OR-->
+    <a href="../Videos/HTML_Course_From_Beg_to_Adv_L_1.mp4" target="_blank"
+      >Video</a
+    >
+    <br />
+    <a href="../../Web Development/HTML/P1_Intro.html" target="_blank">dgdgf</a>
+
+    <hr />
+    <!--Similar relative and abs .. path-->
+    <!--Width -- only given maintains aspect ratio-->
+    <img src="E:\Pictures\Family photos\00870019.jpg" alt="" width="350" />
+    <img
+      src="E:\Pictures\Family photos\00870025.jpg"
+      alt=""
+      width="350"
+      height="1000"
+    />
+    <img
+      src="E:\Pictures\Family photos\00870025.j"
+      alt="This is an image"
+      width="350"
+      height="100"
+    />
+
+    <!--<video src="../Videos/HTML_Course_From_Beg_to_Adv_L_1.mp4" width ="400" autoplay>L_1</video>-->
+    <video
+      src="../Videos/HTML_Course_From_Beg_to_Adv_L_1.mp4"
+      width="400"
+      controls
+      loop
+      muted
+      poster="E:\Pictures\Family photos\00870025.jpg"
+    >
+      L_1
+    </video>
+
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/BQBGORBPytw"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+
+    <iframe
+      src="https://y2mate.guru/en8/"
+      frameborder="1"
+      width="560"
+      height="315"
+    ></iframe>
+
+    <table>
+      <tr>
+        <th>Cities</th>
+        <td>Delhi</td>
+        <td>Mumbai</td>
+      </tr>
+    </table>
+
+    <table>
+      <th>Savings</th>
+      <tr>
+        <td>January</td>
+        <td>$100</td>
+        <th rowspan="2">$50</th>
+      </tr>
+    </table>
+
+    <hr />
+
+    <table>
+
+      <thead>
+        <tr>
+          <th>Subject</th>
+          <th>Theory</th>
+          <th>Practical</th>
+          <th>Total Marks</th>
+          <th>Grades</th>
+        </tr>
+      </thead>
+
+       <tbody>
+         <tr>
+           <td>English</td>
+           <td>Maths</td>
+           <td>Phy</td>
+           <td>English</td>
+           <td>English</td>
+         </tr>
+         <tfoot>
+           <th colspan="5">Result:pass</th>
+         </tfoot>
+       </tbody> 
+
+    </table>
+
+    <form action="">
+      <h2>Payment form</h2>
+      <p>Required fields are denoted by *</p>
+      <p>lore  </p>
+      <h3>Contact information</h3>
+      <p>Name: * <input type="text" name="name" required></p> 
+      <fieldset>
+        <legend>Gender * </legend>
+        <p>
+        Male <input type="radio" name="gender" id="" required>
+        Female <input type="radio" name="gender" id=""required>
+        Other <input type="radio" name="gender" id=""required>
+        </p> 
+      </fieldset>
+      
+      <p>Address: <textarea name="address" id="" cols="30" rows="10"></textarea></p>
+      <p>Email * : <input type="email" name="email" id="email" required></p>
+      <p>PIncode * : <input type="number" name="pincode" id="pincode" required></p>
+
+      <hr>
+
+      <h2>Payment information</h2>
+      <p>Card Type * : 
+        <select name="card_type" id="card_type"required>
+          <option value="">--Select a Card type--</option>
+          <option value="visa">Visa</option>
+          <option value="rupay">Rupay</option>
+          <option value="mastercard">Mastercard</option>
+        </select>
+      </p>
+      <p>
+        Card Number: *  <input type="number" name="card_number" id="card_number" required>
+      </p>
+      <p>
+        Expiration Date: * <input type="date" name="exp_date" id="exp_date" required>
+      </p>
+      <p>
+        cvv: *<input type="password" name="password" id="" required>
+      </p>
+      <input type="submit" value="Pay Now">
+
+    </form>
+
+    <p>Thia is the first para</p>
+    <p>This is the 2nd para</p>
+
+    <em>This is em tag</em>
+    <em>em is used to empasize text</em>
+
+  </body>
+</html>
+
